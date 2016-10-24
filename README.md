@@ -1,4 +1,5 @@
 Tasks:
+
 •	Create simple ASP.NET MVC application;
 
 •	Create and Register elements from figure IoC_task.png using Castle.Windsor container;
