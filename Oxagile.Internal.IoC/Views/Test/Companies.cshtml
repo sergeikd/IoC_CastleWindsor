@@ -1,0 +1,35 @@
+﻿@using Oxagile.Internal.IoC.Entities
+@model IEnumerable<Oxagile.Internal.IoC.Entities.Company>
+
+@{
+    ViewBag.Title = "Companies";
+}
+
+<h2>Companies</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+        </tr>
+    }
+</table>
+
+@using (Html.BeginForm("Companies", "Test", FormMethod.Post))
+{
+    @Html.Partial("EditCompanies", Enumerable.Range(10, 5).Select(x => new Company {Name = $"CompanyName{x}"}).ToArray())
+    <br/>
+    <input type="submit" value="Add companies"/>
+}
+
+

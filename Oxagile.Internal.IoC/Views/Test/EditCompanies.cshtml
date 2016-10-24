@@ -1,0 +1,6 @@
+﻿@model Oxagile.Internal.IoC.Entities.Company[]
+
+@for (var i = 0; i < Model.Length; i++)
+{
+    @Html.TextBoxFor(model => Model[i].Name)<br/>
+}

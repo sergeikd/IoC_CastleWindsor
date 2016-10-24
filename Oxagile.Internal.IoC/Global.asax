@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Oxagile.Internal.IoC.MvcApplication" Language="C#" %>

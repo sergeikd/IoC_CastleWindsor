@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oxagile.Internal.IoC", "Oxagile.Internal.IoC\Oxagile.Internal.IoC.csproj", "{938D8F4F-5EB9-4B7A-9409-63FD5A0DAAF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oxagile.Internal.IoC.DALCF", "Oxagile.Internal.IoC.DALCF\Oxagile.Internal.IoC.DALCF.csproj", "{55C9DBBE-7899-4000-8E68-D92BF3791338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oxagile.Internal.IoC.Entities", "Oxagile.Internal.IoC.Entities\Oxagile.Internal.IoC.Entities.csproj", "{B30C9BD5-703B-4808-B7E6-5008AFA347FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oxagile.Internal.IoC.BL", "Oxagile.Internal.IoC.BL\Oxagile.Internal.IoC.BL.csproj", "{6AC6FCAF-443D-41C0-B2AD-784DC3755EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oxagile.Internal.IoC.Notification", "Oxagile.Internal.IoC.Notification\Oxagile.Internal.IoC.Notification.csproj", "{D7F4A56E-4EB4-4EE0-95F4-24145E2288FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{938D8F4F-5EB9-4B7A-9409-63FD5A0DAAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938D8F4F-5EB9-4B7A-9409-63FD5A0DAAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938D8F4F-5EB9-4B7A-9409-63FD5A0DAAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938D8F4F-5EB9-4B7A-9409-63FD5A0DAAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C9DBBE-7899-4000-8E68-D92BF3791338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C9DBBE-7899-4000-8E68-D92BF3791338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C9DBBE-7899-4000-8E68-D92BF3791338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C9DBBE-7899-4000-8E68-D92BF3791338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30C9BD5-703B-4808-B7E6-5008AFA347FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30C9BD5-703B-4808-B7E6-5008AFA347FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30C9BD5-703B-4808-B7E6-5008AFA347FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30C9BD5-703B-4808-B7E6-5008AFA347FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC6FCAF-443D-41C0-B2AD-784DC3755EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC6FCAF-443D-41C0-B2AD-784DC3755EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC6FCAF-443D-41C0-B2AD-784DC3755EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC6FCAF-443D-41C0-B2AD-784DC3755EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F4A56E-4EB4-4EE0-95F4-24145E2288FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F4A56E-4EB4-4EE0-95F4-24145E2288FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F4A56E-4EB4-4EE0-95F4-24145E2288FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F4A56E-4EB4-4EE0-95F4-24145E2288FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
